@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167888769865",
+    "project_id": "meddose-1ecd2",
+    "storage_bucket": "meddose-1ecd2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167888769865:android:f999c5daf49c3ba05dc098",
+        "android_client_info": {
+          "package_name": "com.example.doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDljmPda8C9KFf-fVKYzrsWWPbHOgFC1jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167888769865:android:71cce8d543f2aa0b5dc098",
+        "android_client_info": {
+          "package_name": "com.example.newappgradu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDljmPda8C9KFf-fVKYzrsWWPbHOgFC1jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

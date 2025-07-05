@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X5 -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    style="fill-rule:evenodd;text-rendering:geometricPrecision;image-rendering:optimizeQuality;clip-rule:evenodd;shape-rendering:geometricPrecision"
+    xml:space="preserve"
+    viewBox="0 0 4199 5373"
+  >
+ <defs
+    >
+  <style
+        type="text/css"
+      >
+    .str1 {stroke:black;stroke-width:42.33}
+    .str0 {stroke:black;stroke-width:42.33;stroke-linecap:round;stroke-linejoin:round}
+    .fil2 {fill:none}
+    .fil1 {fill:#666666}
+    .fil0 {fill:url(#id0)}
+  </style
+    >
+  <linearGradient
+        id="id0"
+        y2="2329.5"
+        gradientUnits="userSpaceOnUse"
+        x2="1639.5"
+        y1="3043.4"
+        x1="2559.7"
+      >
+   <stop
+          style="stop-color:#CCCCCC"
+          offset="0"
+      />
+   <stop
+          style="stop-color:white"
+          offset="1"
+      />
+  </linearGradient
+    >
+ </defs
+  >
+ <g
+      id="Layer_x0020_1"
+    >
+  <path
+        class="fil0"
+        d="m822 4326c-487-380-801-973-801-1639s313-1259 801-1639c815 813 2071 1639 3356 1639-1285 0-2541 826-3356 1639z"
+    />
+  <path
+        class="fil1"
+        d="m310 3745c-184-310-289-672-289-1058s106-748 289-1058c87 332 134 688 134 1058s-47 726-134 1058z"
+    />
+  <path
+        class="fil2 str0"
+        d="m4178 2686c-1872 0-3682-1752-4157-2665"
+    />
+  <path
+        class="fil2 str0"
+        d="m4178 2686c-1872 0-3682 1752-4157 2665"
+    />
+  <path
+        class="fil2 str1"
+        d="m822 4326c-487-380-801-973-801-1639s313-1259 801-1639c815 813 2071 1639 3356 1639-1285 0-2541 826-3356 1639z"
+    />
+ </g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>
