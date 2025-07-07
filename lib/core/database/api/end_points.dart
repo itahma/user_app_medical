@@ -5,9 +5,9 @@ class EndPoint {
   /////Auth/////////////////////////////////////////////////////////
   static const String medSignIn = 'Auth/login';
   static const String medSignUp = 'user/adduserProfile';
-  static const String sendCode = 'Auth/resetpassword';
+  static const String sendCode = 'Auth/sendcode';
   static const String registerSendCode = 'Auth/register';
-  static const String changeForgottenPassword = 'Auth/validateCode';
+  static const String changeForgottenPassword = 'Auth/registerwithcode';
   static const String getProfile = 'user/getUserProfile';
  //////////////////////////cons////////////////////////////////////
   static const String createConnunction = 'user/addCommunication';

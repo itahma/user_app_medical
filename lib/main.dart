@@ -9,10 +9,6 @@ import 'core/database/cache/cache_helper.dart';
 import 'core/service/service_locatro.dart';
 import 'features/alarm/models/medicine_model.dart';
 import 'features/articles/presentation/cubit/articles_cubit.dart';
-import 'features/auth/presentation/cubit/forget_password_cubit/forget_password_cubit.dart';
-import 'features/auth/presentation/cubit/login/login_cubit/login_cubit.dart';
-import 'features/auth/presentation/cubit/register_send_code/redister_send_code_cubit.dart';
-import 'features/auth/presentation/cubit/registr_cubit/register_cubit.dart';
 import 'features/home/presentation/cubit/home_cubit.dart';
 import 'features/profile/presentation/cubit/setting_cubit/setting_cubit.dart';
 import 'package:flutter/material.dart';
@@ -83,21 +79,12 @@ void main() async {
         BlocProvider(
           create: (context) => sl<GlobalCubit>()..getCacheLang(),
         ),
-        BlocProvider(
-          create: (context) => sl<LoginCubit>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<RegisterCubit>(),
-        ),
-        BlocProvider(
-          create: (context) => sl<ForgetPasswordCubit>(),
-        ),
+
+
         BlocProvider(
           create: (context) => sl<HomeCubit>(),
         ),
-        BlocProvider(
-          create: (context) => sl<RegisterSendCodeCubit>(),
-        ),
+
 
         BlocProvider(
           create: (context) => sl<ArticlesCubit>()..getAllArticles(),

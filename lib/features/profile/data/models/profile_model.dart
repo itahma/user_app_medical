@@ -18,7 +18,7 @@ class ProfileModel {
   factory ProfileModel.formJson(json) {
     return ProfileModel(
 
-        phone: json['phone'],
+        phone: json['phone']??'لايوجد',
         gender: json['gender'],
       dateBirthday: json['dateBirthday'],
         name: json['First_Name'] +" "+json['Last_Name'],

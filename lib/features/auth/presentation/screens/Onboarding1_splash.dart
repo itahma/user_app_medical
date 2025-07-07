@@ -9,6 +9,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../../../../core/bloc/cubit/global_cubit.dart';
 import '../../../../core/bloc/cubit/global_state.dart';
 import '../../../../core/utils/app_string.dart';
+import 'login_screen_patient.dart';
 
 class BoardingModel {
   final String image;
@@ -60,10 +61,10 @@ class _OnBoarding1ScreenState extends State<OnBoarding1Screen> {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.pushNamedAndRemoveUntil(
-                    context,
-                    Routes.login,
-                        (Route<dynamic> route) => false);
+                Navigator.of(context).pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (context) => const LoginScreenPatient()), // استبدلها بالشاشة الرئيسية لديك
+                      (route) => false,
+                );
               },
               child: Text(AppString.skip.tr(context),
                   style: const TextStyle(color: AppColors.blue)),
@@ -128,13 +129,13 @@ class _OnBoarding1ScreenState extends State<OnBoarding1Screen> {
                   ),
                   const Spacer(),
                   FloatingActionButton(
-                    backgroundColor: AppColors.blue,
+                    backgroundColor: AppColors.white,
                     onPressed: () {
                       if (isLast) {
-                        Navigator.pushNamedAndRemoveUntil(
-                            context,
-                            Routes.login,
-                                (Route<dynamic> route) => false);
+                        Navigator.of(context).pushAndRemoveUntil(
+                          MaterialPageRoute(builder: (context) => const LoginScreenPatient()), // استبدلها بالشاشة الرئيسية لديك
+                              (route) => false,
+                        );
                       }
                       else {
                         boardController.nextPage(
